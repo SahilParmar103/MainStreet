@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashscreenActivity">
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/logo_main"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/splash_logo"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="@string/heading"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/Letsgo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="47dp"
+        android:backgroundTint="#D5292B"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/Letsgo_btn"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp" />
+
+</RelativeLayout>

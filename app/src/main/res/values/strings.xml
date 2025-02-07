@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MainStreet</string>
+    <string name="logo_main">Logo</string>
+    <string name="login_text">Login</string>
+    <string name="signup_text">Sign Up</string>
+    <string name="Letsgo_btn">Lets Start</string>
+
+    <string name="heading">TRYST WITH DESTINY </string>
+    <string name="create_account_button">Create Account</string>
+    <string name="register_name">Enter Your Name</string>
+    <string name="register_email">Enter Your Email</string>
+    <string name="register_password">Password</string>
+    <string name="signup_txt">Create Account</string>
+    <string name="total_cart_text">Total:</string>
+    <string name="textview">Amount</string>
+    <string name="chkoutBtn">Next</string>
+    <string name="Goback_btn">Continue Shopping</string>
+    <string name="GotoShopping">Go To Home Page</string>
+    <string name="quantity">Quantity</string>
+    <string name="product_price">Product Price</string>
+    <string name="emptyCartText">Your Cart is Empty!!!</string>
+    <string name="price">Price:</string>
+    <string name="colorfull_steps_forever">COLORFULL STEPS FOREVER</string>
+    <string name="product_description">Product Description</string>
+    <string name="add_to_cart_btn">Add to Cart</string>
+    <string name="shipping_details">Shipping Details</string>
+    <string name="address">Address</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="cardnumber">Card Number</string>
+    <string name="valid_until">MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="cardHolderName">Card Holder Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="checkout">Checkout</string>
+
+    <string name="click_to_login">Click To login</string>
+    <string name="click_to_register">Click to register</string>
+</resources>
